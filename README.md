@@ -1,5 +1,6 @@
+# Metric/Imperial Unit Convertor
 A Metric/Imperial Unit Convertor webpage which takes a number as input and when clciking the "Convert" button, Provides the user the Mertic/imperial unit values for Length, Volume and Mass.
-Has a very clean, user-friendly UI and fast response.
+Has a very clean, user-friendly UI and fast response. Made with HMTL, CSS and JavaScript.
 
 
 ![image](https://github.com/Ashwin-S-Nambiar/unit-convertor/assets/76719333/1608c0b5-a099-4efa-86cc-8784536f8356)
