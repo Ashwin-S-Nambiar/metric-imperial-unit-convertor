@@ -1,18 +1,11 @@
-html {
+* {
     margin: 0;
     padding: 0;
     outline: 0;
-    width: 100%;
-    height: 100vh;
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0; padding: 0; outline: 0;
-    width: 100%;
-    height: 100vh;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    box-sizing: border-box;
     background-image: linear-gradient(#0F2027, #203A43, #2C5364);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -24,29 +17,34 @@ h2, h3, p, button {
 }
 
 .main-container {
-    width: 550px;
-    height: 729px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 350px;
+    height: 600px;
+    min-width: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }    
 
 #top-section {
-    width: 550px;
-    height: 285px;
+    padding: 1em;
+    width: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: #6943FF;
     color: #FFFFFF;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 #h2-head {
-    margin: 1em auto;
+    text-align: center;
     color: #e4deff;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
 }
 
 .input * {
@@ -59,12 +57,10 @@ h2, h3, p, button {
     flex-direction: column;
     align-items: center;
     background-color: rgb(105, 67, 255);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #input-el {
-    font-size: 4em;
+    font-size: 3.5rem;
     text-align: center;
     width: 2ch;
     background-color: inherit;
@@ -74,7 +70,7 @@ h2, h3, p, button {
     font-weight: 900;
     padding: 4px 20px;
     transition: .1s ease;
-    margin-bottom: 27px;
+    margin-bottom: 0.4em;
 }
 
 #input-el:focus{
@@ -82,13 +78,11 @@ h2, h3, p, button {
 }
 
 #convert-btn {
-    width: 117px;
-    height: 42px;
-    padding: 9px 27px;
+    padding: 0.75em 1.5em;
     border: none;
     border-radius: 4px;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -100,51 +94,111 @@ h2, h3, p, button {
 }
 
 #btm-section {
-    background-color: #1F2937;
+    width: 100%;
+    height: 60%;
     padding: 1em;
+    background-color: #1F2937;
     text-align: center;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 .conversion {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #273549;
-    margin: 1em;
-    gap: 1em;
+    gap: 0.5em;
     padding: 1em;
     border-radius: 5px;
 }
 
-#h3-length, #h3-volume, #h3-mass {
-    margin-top: 6px;
-    font-size: 20px;
+.conversion > h3 {
+    font-size: 1.05rem;
     font-weight: 600;
-    line-height: 20px;
     color: #CCC1FF;
 }
 
 p {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 400;
-    line-height: 2opx;
 }
 
-#mass {
-    margin-bottom: 36px;
-}
+/* Media Queries */
 
-#length {
-    margin-top: 36px;
-}
+/* xs */
+@media (min-width: 475px) {
+    .main-container {
+        width: 450px;
+        height: 590px;
+    }
 
-@media only screen and (max-width: 600px) {
-    body {
-        margin: 0 auto;
-        margin-top: 150px;
-        zoom: 60%;
+    #top-section {
+        gap: 1em;
+    }
+
+    #h2-head {
+        font-size: 1.7rem;
+    }
+
+    #convert-btn {
+        font-size: 1.05rem;
+        margin-top: -0.6em;
+    }   
+
+
+    #btm-section {
+        justify-content: space-evenly;
+    }
+
+    .conversion {
+        gap: 0.7em;
+    }
+
+    .conversion > h3 {
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1.15rem;
     }
 }
+
+/* sm */
+@media (min-width: 640px) {
+
+    .main-container {
+        height: 600px;
+    }
+
+    #convert-btn {
+        font-size: 1.1rem;
+        margin-top: -0.7rem;
+    }   
+
+    .conversion > h3 {
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1.1rem;
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
