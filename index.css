@@ -78,9 +78,7 @@ h2, h3, p, button {
 }
 
 #convert-btn {
-    width: 117px;
-    height: 42px;
-    padding: 0.9em 1.5em;
+    padding: 0.75em 1.5em;
     border: none;
     border-radius: 4px;
     font-family: "Inter", sans-serif;
@@ -112,9 +110,8 @@ h2, h3, p, button {
 
 .conversion {
     display: flex;
-    width: 320px;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #273549;
     gap: 0.5em;
     padding: 1em;
@@ -122,7 +119,7 @@ h2, h3, p, button {
 }
 
 .conversion > h3 {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     font-weight: 600;
     color: #CCC1FF;
 }
@@ -139,24 +136,20 @@ p {
 @media (min-width: 475px) {
     .main-container {
         width: 450px;
-        height: 660px;
+        height: 590px;
     }
 
     #top-section {
-        gap: 0.35rem;
+        gap: 1em;
     }
 
     #h2-head {
-        font-size: 1.75rem;
-    }
-
-    #input-el {
-        font-size: 3.7rem;
+        font-size: 1.7rem;
     }
 
     #convert-btn {
-        font-size: 1.1rem;
-        padding: 0.7em 1.5em;
+        font-size: 1.05rem;
+        margin-top: -0.6em;
     }   
 
 
@@ -165,13 +158,11 @@ p {
     }
 
     .conversion {
-        width: 420px;
-        height: 200px;
         gap: 0.7em;
     }
 
     .conversion > h3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     p{
@@ -181,40 +172,27 @@ p {
 
 /* sm */
 @media (min-width: 640px) {
+
     .main-container {
-        width: 500px;
-    }
-
-    #top-section {
-        gap: 0.75rem;
-    }
-
-    #h2-head {
-        font-size: 1.8rem;
+        height: 600px;
     }
 
     #convert-btn {
-        font-size: 1.25rem;
-        padding: 0.5em 1em;
+        font-size: 1.1rem;
+        margin-top: -0.7rem;
     }   
 
-    .conversion {
-        width: 468px;
-    }
-
     .conversion > h3 {
-        font-size: 1.65rem;
+        font-size: 1.2rem;
     }
 
     p{
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 }
 
 /* md */
-@media (min-width: 768px) {
-    
-}
+/* @media (min-width: 768px) {} */
 
 /* lg */
 /* @media (min-width: 1024px) {} */
