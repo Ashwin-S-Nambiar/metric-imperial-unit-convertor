@@ -109,6 +109,7 @@ h2, h3, p, button {
 }
 
 .conversion {
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,6 +182,10 @@ p {
         font-size: 1.1rem;
         margin-top: -0.7rem;
     }   
+
+    .conversion {
+        min-width: 300px;
+    }
 
     .conversion > h3 {
         font-size: 1.2rem;
