@@ -1,4 +1,4 @@
-# Unit Convertor 🧮
+# Unit Convertor
 
 <div align="center">
 
@@ -12,7 +12,7 @@ A versatile Metric/Imperial Unit Convertor that provides quick and easy conversi
 
 </div>
 
-## ✨ Features
+## Features
 
 - **Multi-Unit Conversion:** Convert between Metric and Imperial units
 - **Comprehensive Categories:** Support for Length, Volume, and Mass conversions
@@ -20,14 +20,14 @@ A versatile Metric/Imperial Unit Convertor that provides quick and easy conversi
 - **Fast Response:** Instant conversion results
 - **Clean UI:** Minimalist and easy-to-use layout
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend:
 - **HTML5:** Semantic markup
 - **CSS3:** Responsive styling
 - **JavaScript:** Core conversion logic
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the Repository:**
 
@@ -40,7 +40,7 @@ A versatile Metric/Imperial Unit Convertor that provides quick and easy conversi
 
    Simply open the `index.html` file in your web browser
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help improve Unit Convertor:
 
@@ -65,7 +65,7 @@ Contributions are welcome! Here's how you can help improve Unit Convertor:
 
 5. Open a Pull Request
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
     <h3>Conversion Interface</h3>
@@ -74,7 +74,7 @@ Contributions are welcome! Here's how you can help improve Unit Convertor:
     <img src="https://github.com/Ashwin-S-Nambiar/unit-convertor/assets/76719333/8f827d8f-607b-4c16-8b54-2bb8dcf61fd4" alt="Conversion Results" />
 </div>
 
-## 🌍 Live
+## Live
 
 <div align="center">
 
@@ -82,7 +82,7 @@ Contributions are welcome! Here's how you can help improve Unit Convertor:
 
 </div>
 
-## 👤 Author
+## Author
 
 ### Ashwin S Nambiar
 - Portfolio: [ashwin.co.in](https://ashwin.co.in)
